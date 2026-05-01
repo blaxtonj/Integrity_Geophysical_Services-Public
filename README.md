@@ -19,8 +19,18 @@ A key challenge in this redesign was balancing technical accuracy with clarityâ€
 
 The redesign also required modernizing the UI without introducing unnecessary complexity, prioritizing clarity, structure, and performance.
 
+## Key Improvements
+
+- Introduced a consistent design system to eliminate visual inconsistencies  
+- Reworked layout and content structure to improve readability and flow  
+- Simplified navigation to reduce cognitive load  
+- Improved responsiveness across device sizes  
+- Added subtle motion to enhance user feedback without impacting performance  
+
+[View detailed breakdown â†’](/doc/key-improvements.md)
+
 ## Documentation
-Detailed technical breakdowns:
+This project is broken down into focused technical deep dives:
 - [Architecture](/doc/architecture.md)
 - [Engineering Challenges](/doc/engineering-challenges.md)
 - [Performance Strategy](/doc/performance.md)
@@ -32,7 +42,7 @@ Detailed technical breakdowns:
 | Category | Tools & Technologies |
 | :--- | :--- |
 | **Framework** | React, Next.js, TypeScript |
-| **Styling & UI** | Tailwind CSS, Tailwind Merge|
+| **Styling & UI** | Tailwind CSS, Tailwind Merge |
 | **Animation** | Framer Motion |
 | **Forms & Validation** | React Hook Form, Yup |
 | **Backend Utilities** | Node.js, Nodemailer |
