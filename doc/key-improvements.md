@@ -28,7 +28,7 @@ A full design system would have added unnecessary complexity for a relatively sm
 ### Before
 Content was presented in dense sections with limited hierarchy, making it difficult to quickly scan or identify key information.
 
-*Example of dense service content:*
+### *Example of dense service content:*
 ![services](../img/old/services.png)
 
 ### After
@@ -37,7 +37,7 @@ Content was presented in dense sections with limited hierarchy, making it diffic
 - Improved heading structure and spacing  
 - Introduced visual grouping to guide user flow
 
-*Reworked layout with clearer structure and grouping:*
+### *Reworked layout with clearer structure and grouping:*
 ![services](../img/new/services.png)
 
 ### Why it mattered
@@ -60,7 +60,7 @@ Responsive behavior was inconsistent, with layouts that did not adapt cleanly ac
 - Ensured consistent spacing and alignment across devices
 - Introduced a consistent max-width container pattern across all sections 
 
-
+### Implementation Example
 ```ts
 
 <div className="mx-auto max-w-[90rem] flex flex-col items-center">
