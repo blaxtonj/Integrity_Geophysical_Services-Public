@@ -62,3 +62,13 @@ The repository separates functionality into distinct folders based on responsibi
 -  ```img/``` – static visual assets
 
 This separation ensures that UI rendering, data configuration, and utility logic remain decoupled, improving maintainability and scalability.
+
+## Design Principles
+
+- Keep routing structure separate from UI composition
+- Prefer feature-based grouping over flat organization
+- Isolate reusable logic in dedicated utility layers
+
+## Summary
+
+The redesigned architecture introduces clearer boundaries between concerns, improves navigability of the codebase, and establishes consistent organizational patterns to support long-term maintainability and scalability.
