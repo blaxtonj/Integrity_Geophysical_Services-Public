@@ -28,11 +28,15 @@ A full design system would have added unnecessary complexity for a relatively sm
 ### Before
 Content was presented in dense sections with limited hierarchy, making it difficult to quickly scan or identify key information.
 
+![services](../img/old/services.png)
+
 ### After
 - Broke content into clearly defined sections  
 - Converted dense text into more scannable layouts  
 - Improved heading structure and spacing  
-- Introduced visual grouping to guide user flow  
+- Introduced visual grouping to guide user flow
+
+![services](../img/new/services.png)
 
 ### Why it mattered
 Users can now quickly identify relevant information without needing to read through large blocks of text. This is especially important for service-based websites where clarity directly impacts engagement.
@@ -40,24 +44,6 @@ Users can now quickly identify relevant information without needing to read thro
 ### Trade-offs
 Some technical detail was condensed to improve readability. The focus shifted from exhaustive explanation to clear communication.
 
----
-
-## 3. Simplifying Navigation
-
-### Before
-Navigation lacked clear prioritization, making it harder for users to understand where to go next.
-
-### After
-- Simplified navigation structure  
-- Reduced unnecessary options  
-- Improved labeling for clarity  
-- Ensured consistent navigation behavior across screen sizes  
-
-### Why it mattered
-Reducing cognitive load helps users move through the site more efficiently and improves overall usability.
-
-### Trade-offs
-Fewer navigation options meant some content needed to be reorganized or consolidated, requiring more intentional content structuring.
 
 ---
 
