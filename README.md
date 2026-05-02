@@ -23,14 +23,14 @@ The redesign also required modernizing the UI without introducing unnecessary co
 
 - Introduced a consistent design system to eliminate visual inconsistencies  
 - Reworked layout and content structure to improve readability and flow  
-- Simplified navigation to reduce cognitive load  
 - Improved responsiveness across device sizes  
-- Added subtle motion to enhance user feedback without impacting performance  
+- Added subtle animations to enhance user feedback without impacting performance  
 
 [View detailed breakdown →](/doc/key-improvements.md)
 
 ## Documentation
 This project is broken down into focused technical deep dives:
+- [UI Evolution](/doc/ui-evolution.md)
 - [Architecture](/doc/architecture.md)
 - [Engineering Challenges](/doc/engineering-challenges.md)
 - [Performance Strategy](/doc/performance.md)
