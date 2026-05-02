@@ -28,6 +28,7 @@ A full design system would have added unnecessary complexity for a relatively sm
 ### Before
 Content was presented in dense sections with limited hierarchy, making it difficult to quickly scan or identify key information.
 
+*Example of dense service content:*
 ![services](../img/old/services.png)
 
 ### After
@@ -36,6 +37,7 @@ Content was presented in dense sections with limited hierarchy, making it diffic
 - Improved heading structure and spacing  
 - Introduced visual grouping to guide user flow
 
+*Reworked layout with clearer structure and grouping:*
 ![services](../img/new/services.png)
 
 ### Why it mattered
@@ -47,7 +49,7 @@ Some technical detail was condensed to improve readability. The focus shifted fr
 
 ---
 
-## 4. Improving Responsiveness
+## 3. Improving Responsiveness
 
 ### Before
 Responsive behavior was inconsistent, with layouts that did not adapt cleanly across different screen sizes.
@@ -55,7 +57,15 @@ Responsive behavior was inconsistent, with layouts that did not adapt cleanly ac
 ### After
 - Rebuilt layouts with a mobile-first approach  
 - Standardized breakpoints  
-- Ensured consistent spacing and alignment across devices  
+- Ensured consistent spacing and alignment across devices
+- Introduced a consistent max-width container pattern across all sections 
+
+
+```ts
+
+<div className="mx-auto max-w-[90rem] flex flex-col items-center">
+
+```
 
 ### Why it mattered
 A consistent experience across devices is critical, especially for business websites where users may access content from various contexts.
@@ -65,7 +75,7 @@ Designing mobile-first required rethinking some desktop layouts rather than simp
 
 ---
 
-## 5. Introducing Purposeful Motion
+## 4. Introducing Purposeful Motion
 
 ### Before
 The original site had little to no interactive feedback or motion, resulting in a static user experience.
