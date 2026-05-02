@@ -48,3 +48,17 @@ Pages inside groups:
 - (contact)/Contact.tsx → /
 
 Each section is composed into the root route (`/`), while the route groups exist purely for structural organization and separation of concerns.
+
+### Separation of Concerns
+
+The repository separates functionality into distinct folders based on responsibility:
+
+-  ```components/``` – shared UI components used across the entire site
+
+-  ```data/``` – static configuration objects and structured data
+
+-  ```utils/``` – reusable helper functions and logic
+
+-  ```img/``` – static visual assets
+
+This separation ensures that UI rendering, data configuration, and utility logic remain decoupled, improving maintainability and scalability.
