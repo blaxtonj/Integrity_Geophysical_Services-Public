@@ -8,7 +8,7 @@ Each decision reflects a deliberate choice between competing approaches, emphasi
 
 ---
 
-### 1. Designing for Trust and Credibility
+## 1. Designing for Trust and Credibility
 
 #### Context
 The original site lacked a clear first-impression layer, with no defined hero section or structured entry point. As a result, users were immediately presented with dense content without a clear understanding of what the company does or why it should be trusted.
@@ -34,7 +34,7 @@ Introducing a hero section reduced the amount of content visible above the fold.
 The redesigned entry point provides immediate context and establishes trust early, making it easier for users to understand the company’s services and engage with the rest of the site.
 
 
-### 2. Improving Information Flow and Content Direction
+## 2. Improving Information Flow and Content Direction
 
 #### Context
 Beyond the initial entry point, several sections of the original site contained dense informational content with limited visual hierarchy or guidance. Users were required to actively search for meaning rather than being guided through the information.
@@ -59,3 +59,47 @@ This approach required reducing some content density in favor of clearer structu
 
 #### Impact
 Users can now navigate complex service information more easily, with a clearer understanding of hierarchy and progression through the content.
+
+## 3. Establishing Design System Consistency
+
+#### Context
+The original implementation lacked consistent design patterns across spacing, typography, and component usage. Styles were applied on a per-component basis, resulting in visual inconsistencies and a lack of unified structure across the interface.
+
+This made the UI harder to maintain and introduced unnecessary variation between similar elements.
+
+#### Options Considered
+- Continue with ad-hoc styling at the component level  
+- Introduce a lightweight design system to standardize UI patterns across the application  
+
+#### Decision
+A lightweight design system was introduced to enforce consistency across spacing, typography, and reusable UI components. This included establishing predictable patterns for layout structure, defining consistent styling rules, and reducing one-off styling decisions.
+
+Where full abstraction would have added unnecessary complexity, a pragmatic approach was used to balance consistency with simplicity.
+
+#### Trade-offs
+This approach required refactoring existing components to align with shared patterns. While this introduced upfront restructuring effort, it significantly improved long-term maintainability.
+
+#### Impact
+The UI became more consistent across pages, easier to extend, and more maintainable. Shared patterns reduced duplication and ensured that new components followed established design conventions by default.
+
+#### Design System Tokens (Implementation Reference)
+
+```ts
+@theme {
+
+    --breakpoint-mobile: 360px;
+    --breakpoint-xsm: 500px;
+    --breakpoint-3xl: 2000px;
+
+    --font-poppins: 'Poppins', sans-serif;
+    --font-noto: 'Noto_Serif', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+    --font-playfair: 'Playfair_Display', sans-serif;
+
+    --color-primary: #8a6c2e;
+    --color-secondary: #1C2B3A;
+    --color-tertiary: #D8D0BF;
+    --color-para : #4A3E2A;
+    --color-divider : #EAE4D8;
+
+}
