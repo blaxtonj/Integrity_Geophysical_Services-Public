@@ -10,8 +10,6 @@ Each decision reflects a deliberate choice between competing approaches, emphasi
 
 ### 1. Designing for Trust and Credibility
 
-### 1. Designing for Trust and Credibility
-
 #### Context
 The original site lacked a clear first-impression layer, with no defined hero section or structured entry point. As a result, users were immediately presented with dense content without a clear understanding of what the company does or why it should be trusted.
 
@@ -21,7 +19,8 @@ In a technical, business-facing industry, this created a gap in credibility duri
 - Maintain a content-first layout without a defined entry point  
 - Introduce a structured hero section to clearly communicate value and establish trust immediately
 
-
+*Final hero section implementation focusing on clarity and first-impression trust:*
+![services](../img/new/hero.png)
 
 #### Decision
 A dedicated hero section was introduced to serve as a clear entry point for the site. This section was designed to quickly communicate the company’s core services, reinforce professionalism, and establish credibility within the first interaction.
