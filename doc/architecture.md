@@ -8,7 +8,7 @@ This document outlines the architectural improvements made during the redesign o
 
 Prior to the redesign, the project lacked a clear architectural structure. Most components, pages, and utilities were colocated within the `app/` directory, leading to poor separation of concerns.
 
-As the codebase grew, this made it increasingly difficult to maintain, reason about, and extend. Changes in one area often required navigating unrelated parts of the codebase, and there were no clear patterns guiding organization.
+This made it increasingly difficult to maintain, reason about, and extend. Changes in one area often required navigating unrelated parts of the codebase, and there were no clear patterns guiding organization.
 
 The redesign introduced a more deliberate structure, separating concerns and establishing consistent patterns for component organization and reuse.
 
