@@ -30,7 +30,6 @@ The redesign also required modernizing the UI without introducing unnecessary co
 
 ## Documentation
 This project is broken down into focused technical deep dives:
-- [UI Evolution](/doc/ui-evolution.md)
 - [Architecture](/doc/architecture.md)
 - [Engineering Challenges](/doc/engineering-challenges.md)
 - [Performance Strategy](/doc/performance.md)
