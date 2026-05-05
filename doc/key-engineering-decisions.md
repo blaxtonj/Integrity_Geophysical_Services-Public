@@ -8,6 +8,46 @@ Each decision reflects a deliberate choice between competing approaches, emphasi
 
 ---
 
+### 1. Designing for Trust and Credibility
+
+### 1. Designing for Trust and Credibility
+
+#### Context
+The original site lacked a clear first-impression layer, with no defined hero section or structured entry point. As a result, users were immediately presented with dense content without a clear understanding of what the company does or why it should be trusted.
+
+In a technical, business-facing industry, this created a gap in credibility during the initial interaction.
+
+#### Options Considered
+- Maintain a content-first layout without a defined entry point  
+- Introduce a structured hero section to clearly communicate value and establish trust immediately
+
+
+
+#### Decision
+A dedicated hero section was introduced to serve as a clear entry point for the site. This section was designed to quickly communicate the company’s core services, reinforce professionalism, and establish credibility within the first interaction.
+
+The layout prioritized concise messaging, strong visual hierarchy, and minimal distractions to guide user attention effectively.
+
+#### Trade-offs
+Introducing a hero section reduced the amount of content visible above the fold. However, this trade-off improved clarity and ensured users were not overwhelmed upon entry.
+
+#### Impact
+The redesigned entry point provides immediate context and establishes trust early, making it easier for users to understand the company’s services and engage with the rest of the site.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### 1. Lightweight Design System vs Full Design System
 
 #### Context
