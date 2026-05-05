@@ -1,5 +1,13 @@
 ## Engineering Challenges
 
+Unlike application-heavy projects, [Integrity Geophysical Services, Inc](https://www.integritygeophysical.com/). is primarily a business-facing, information-driven site. The focus was not complex business logic, but rather clear communication, performance, and establishing credibility within a technical industry.
+
+This introduced a different set of challenges centered around translating specialized content into an accessible format, structuring information for readability, and designing a UI that felt both modern and industry-appropriate.
+
+Instead of solving for state complexity or feature depth, the challenge was ensuring that technical decisions consistently supported clarity, usability, and long-term maintainability.
+
+---
+
 ### 1. Translating Business Requirements into a Clear Web Experience
 
 One of the primary challenges in this project was aligning technical and design decisions with the actual business goals of Integrity Geophysical Services, inc.
