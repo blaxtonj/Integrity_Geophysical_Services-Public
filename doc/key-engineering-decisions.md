@@ -20,7 +20,7 @@ In a technical, business-facing industry, this created a gap in credibility duri
 - Introduce a structured hero section to clearly communicate value and establish trust immediately
 
 *Final hero section implementation focusing on clarity and first-impression trust:*
-![services](../img/new/hero.png)
+![hero](../img/new/hero.png)
 
 #### Decision
 A dedicated hero section was introduced to serve as a clear entry point for the site. This section was designed to quickly communicate the company’s core services, reinforce professionalism, and establish credibility within the first interaction.
@@ -34,33 +34,28 @@ Introducing a hero section reduced the amount of content visible above the fold.
 The redesigned entry point provides immediate context and establishes trust early, making it easier for users to understand the company’s services and engage with the rest of the site.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-### 1. Lightweight Design System vs Full Design System
+### 2. Improving Information Flow and Content Direction
 
 #### Context
-The original implementation lacked consistency in spacing, typography, and component usage, leading to visual fragmentation and slower development.
+Beyond the initial entry point, several sections of the original site contained dense informational content with limited visual hierarchy or guidance. Users were required to actively search for meaning rather than being guided through the information.
+
+This made it difficult to quickly understand services and reduced overall readability, especially in content-heavy sections.
+
+*Example of dense informational layout in the original design:*
+![Dense Content Layout](../img/old/services.png)
 
 #### Options Considered
-- Implement a full-scale design system with strict tokens and extensive abstraction  
-- Introduce a lightweight, pragmatic system focused on consistency without overengineering  
+- Preserve a dense, text-heavy layout where users self-navigate information  
+- Introduce structured layouts that guide users through content with clear hierarchy and grouping
+
+*Example of improved guided content structure:*
+![Structured Content Layout](../img/new/methods.png)
 
 #### Decision
-A lightweight design system was implemented, focusing on typography scale, spacing consistency, and a small set of reusable components.
+The redesign introduced clearer information flow through structured sections, improved spacing, and intentional grouping of related content. Each section was designed to guide the user’s eye naturally through the information rather than presenting it as a block of unstructured text.
 
 #### Trade-offs
-This approach improved consistency and development speed, but did not provide the level of rigor or extensibility of a fully formalized design system.
+This approach required reducing some content density in favor of clearer structure. Some information was condensed or reorganized to improve readability.
 
 #### Impact
-The UI became more cohesive and easier to maintain, while avoiding unnecessary complexity for a relatively small project.
+Users can now navigate complex service information more easily, with a clearer understanding of hierarchy and progression through the content.
